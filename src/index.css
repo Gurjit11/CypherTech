@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.pageContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #282c34;
+    color: white;
+    font-size: calc(10px + 2vmin);
+    text-align: center;
+}
+.cl-formButtonPrimary {
+    font-size: 14px;
+    text-transform: none;
+    background-color: #611bbd;
+  }
+   
+  .cl-formButtonPrimary:hover,
+  .cl-formButtonPrimary:focus,
+  .cl-formButtonPrimary:active {
+    background-color: #49247a;
+  }
